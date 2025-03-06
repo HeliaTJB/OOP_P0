@@ -3,4 +3,6 @@ project(oop_p0)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(oop_p0 main.cpp)
+add_executable(oop_p0 main.cpp
+        temp.cpp
+        temp.h)
